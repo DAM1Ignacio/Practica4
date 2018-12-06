@@ -8,10 +8,14 @@ public class DibujaLetra {
 
 	public static void main(String[] args) {
 
-		String[] letra = bannerLetra('H');
+		String[] letran = bannerLetra('N');
 
-		for (int i = 0; i < letra.length; i++) {
-			System.out.println(letra[i]);
+		String[] letraa = bannerLetra('A');
+		String[] letrac = bannerLetra('C');
+		String[] letrah = bannerLetra('H');
+		String[] letrao = bannerLetra('O');
+		for (int i = 0; i < 7; i++) {
+			System.out.println(letran[i] +" "+letraa[i]+" "+ letrac[i]+" "+letrah[i]+" "+letrao[i]);
 		}
 	}
 
