@@ -1,15 +1,19 @@
-
+/**
+ * Programa que ordena una matriz de diferentes formas
+ * 
+ * @author nachobelmonte 8 dic. 2018
+ */
 public class SecuenciasNaturales {
 
 	public static void main(String[] args) {
-		int[][] matrizA = secuenciaNaturalIntC(10);
+		int[][] matrizA = secuenciaNaturalIntD(9);
 
 		for (int i = 0; i < matrizA.length; i++) {
 			for (int j = 0; j < matrizA.length; j++) {
-				System.out.print(matrizA[i][j] );
-				if (matrizA[i][j]/10>0) {
+				System.out.print(matrizA[i][j]);
+				if (matrizA[i][j] / 10 > 0) {
 					System.out.print("  ");
-				}else {
+				} else {
 					System.out.print("   ");
 				}
 			}
@@ -78,6 +82,11 @@ public class SecuenciasNaturales {
 
 	}
 
+	/**
+	 * 
+	 * @param longitudMatriz
+	 * @return
+	 */
 	static int[][] secuenciaNaturalIntC(int longitudMatriz) {
 
 		int[][] matriz = new int[longitudMatriz][longitudMatriz];
@@ -101,7 +110,7 @@ public class SecuenciasNaturales {
 
 		for (int i = 0; i < longitudMatriz - 1; i++) {
 
-			aux ++;
+			aux++;
 			int coordenadasY = aux;
 			int coordenadasX = 0;
 
@@ -116,6 +125,73 @@ public class SecuenciasNaturales {
 			numEjecucion2Bucle--;
 		}
 
+		return matriz;
+	}
+
+	/**
+	 * Ordena la mariz en espiral
+	 * 
+	 * @param longitudMatriz
+	 * @return
+	 */
+	static int[][] secuenciaNaturalIntD(int longitudMatriz) {
+
+		int[][] matriz = new int[longitudMatriz][longitudMatriz];
+
+		int a = 0; // punto incio
+		int b = longitudMatriz - 1; // punto final
+		int numeroAlmacenar = 1;
+		int casoEjecutar = 0;
+
+		while (numeroAlmacenar <= longitudMatriz * longitudMatriz) {
+			switch (casoEjecutar) {
+
+			// ARRAY ARRIBA ABAJO
+			case 0:
+				for (int i = a; i <= b; i++) {
+
+					matriz[i][a] = numeroAlmacenar;
+					numeroAlmacenar++;
+				}
+				a++;
+				casoEjecutar++;
+				break;
+
+			// ARRAY IZQUIERDA DERECHA
+			case 1:
+				for (int i = a; i <= b; i++) {
+
+					matriz[b][i] = numeroAlmacenar;
+					numeroAlmacenar++;
+				}
+				a--;
+				b--;
+				casoEjecutar++;
+				break;
+
+			// ARRAY ABAJO ARRIBA
+			case 2:
+				for (int i = b; i >= a; i--) {
+
+					matriz[i][b + 1] = numeroAlmacenar;
+					numeroAlmacenar++;
+				}
+				a++;
+				casoEjecutar++;
+				break;
+
+			// ARRAY DERECHA IZQUIERDA
+			case 3:
+				for (int i = b; i >= a; i--) {
+
+					matriz[a - 1][i] = numeroAlmacenar;
+					numeroAlmacenar++;
+				}
+				casoEjecutar = 0;
+				break;
+			}
+
+		}
 		return matriz;
 	}
 
