@@ -80,4 +80,8 @@ Practica 4 primer trimestre del primer año de DAM
   - A partir de la posición [0][0] hay que bajar N veces.
   - A continuación, se pasa a la derecha N-1 veces, luego sube N-1 veces, luego a la izquierda N-2 veces, luego hacia abajo N-2 veces, etc. Cada vez que se mueve un paso se produce un número de la secuencia natural 1, 2, 3, ..., NxN.
   - Deben seguirse los principios y estilo del código limpio.
-
+### 13. SubmatrizMaxima
+	
+  - Escribe un método que se llame maxima3() que recibe una matriz rectangular de tamaño (n,m) con datos. Devuelve una una submatriz de tamaño (3,3), cuyos valores sumen el valor máximo dentro de la matriz recibida.
+  - Modifica el ejemplo de submatriz máxima del capitulo 7. Arrays de los apuntes.
+  - Deben seguirse los principios y estilo del código limpio.
