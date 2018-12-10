@@ -1,5 +1,18 @@
 # Practica4
-Practica 4 primer trimestre del primer año de DAM
+Practica 4 - Arrays
+
+# Clases:
+
+[ValorMasRepetido](https://github.com/DAM1Ignacio/Practica4#3-valormasrepetido)
+[ComparacionVectoresInt](https://github.com/DAM1Ignacio/Practica4#4-comparacionvectoresint)
+[ComparacionVectoresChar](https://github.com/DAM1Ignacio/Practica4#5-comparacionvectoreschar)
+[NumerosConsecutivos](https://github.com/DAM1Ignacio/Practica4#6-numerosconsecutivos)
+[BusquedaEnVector](https://github.com/DAM1Ignacio/Practica4#7-busquedaenvector)
+[VectorOrdenado](https://github.com/DAM1Ignacio/Practica4#8-vectorordenado)
+[ValorMasRepetido](https://github.com/DAM1Ignacio/Practica4#9-valormasrepetido)
+[DibujaLetra](https://github.com/DAM1Ignacio/Practica4#10-dibujaletra)
+[SecuenciasNaturales](https://github.com/DAM1Ignacio/Practica4#11-secuenciasnaturales)
+
 
 # Ejercicios
 ### 3. ValorMasRepetido
@@ -40,13 +53,13 @@ Practica 4 primer trimestre del primer año de DAM
   - Prueba el método pedido desde main().
   - Una forma sería recorrer el vector anidar un bucle que averigüe la frecuencia del valor de cada elemento, utilizando un par de variables auxiliares para retener la frecuencia máxima y el valor asociado.
   - Deben seguirse los principios y estilo del código limpio.
-### 10. DibujaLetra
+### 10. BusquedaSecuenciasVector
   - Escribe un método que se llame buscarSecuenciaInt() que recibe dos vectores de enteros, el segundo es una secuencia de valores a buscar en el primer vector. Devuelve el índice donde empieza la primera ocurrencia de la secuencia buscada.
   - Por ejemplo: {4, 3, 1, 4, 2, 5, 8} y {4, 2, 5} devolvería 3.
   - Prueba el método pedido desde main().
   - Hay que recorrer el vector secuencialmente comprobando coincidencia con el primer elemento de la secuencia buscada. Después hay que comprobarla completamente con otro bucle. Si hay coincidencia completa termina sin llegar al final del recorrido.
   - Deben seguirse los principios y estilo del código limpio.
-### 11. SecuenciasNaturales
+### 11. DibujaLetra
   - Escribe un método que se llame bannerLetra() que recibe un carácter como parámetro y devuelve una cadena de caracteres con el texto, formateado sobre una matriz de 7x7, de la letra correspondiente al carácter recibido.
   - Por ejemplo si se introduce la H, la cadena devuelta, al imprimirla, daría:
         H     H
