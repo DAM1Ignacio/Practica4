@@ -3,15 +3,18 @@ Practica 4 - Arrays
 
 # Clases:
 
-[ValorMasRepetido](https://github.com/DAM1Ignacio/Practica4#3-valormasrepetido)
-[ComparacionVectoresInt](https://github.com/DAM1Ignacio/Practica4#4-comparacionvectoresint)
-[ComparacionVectoresChar](https://github.com/DAM1Ignacio/Practica4#5-comparacionvectoreschar)
-[NumerosConsecutivos](https://github.com/DAM1Ignacio/Practica4#6-numerosconsecutivos)
-[BusquedaEnVector](https://github.com/DAM1Ignacio/Practica4#7-busquedaenvector)
-[VectorOrdenado](https://github.com/DAM1Ignacio/Practica4#8-vectorordenado)
-[ValorMasRepetido](https://github.com/DAM1Ignacio/Practica4#9-valormasrepetido)
-[DibujaLetra](https://github.com/DAM1Ignacio/Practica4#10-dibujaletra)
-[SecuenciasNaturales](https://github.com/DAM1Ignacio/Practica4#11-secuenciasnaturales)
+- [ValorMasRepetido](https://github.com/DAM1Ignacio/Practica4#3-valormasrepetido)
+- [ComparacionVectoresInt](https://github.com/DAM1Ignacio/Practica4#4-comparacionvectoresint)
+- [ComparacionVectoresChar](https://github.com/DAM1Ignacio/Practica4#5-comparacionvectoreschar)
+- [NumerosConsecutivos](https://github.com/DAM1Ignacio/Practica4#6-numerosconsecutivos)
+- [BusquedaEnVector](https://github.com/DAM1Ignacio/Practica4#7-busquedaenvector)
+- [VectorOrdenado](https://github.com/DAM1Ignacio/Practica4#8-vectorordenado)
+- [ValorMasRepetido](https://github.com/DAM1Ignacio/Practica4#9-valormasrepetido)
+- [BusquedaSecuenciasVector](https://github.com/DAM1Ignacio/Practica4#10-busquedasecuenciasvectora)
+- [DibujaLetra](https://github.com/DAM1Ignacio/Practica4#11-dibujaletra)
+- [SecuenciasNumerales](https://github.com/DAM1Ignacio/Practica4#12-secuenciasnaturales)
+- [SubmatrizMaxima](https://github.com/DAM1Ignacio/Practica4#13-submatrizmaxima)
+
 
 
 # Ejercicios
@@ -79,7 +82,7 @@ Practica 4 - Arrays
   - Sólo se admiten letras en mayúsculas.
   - Prueba exhaustivamente el métodos pedido desde main().
   - Deben seguirse los principios y estilo del código limpio.
-### 12. SecuenciasNumerales
+### 12. SecuenciasNaturales
   - Escribe cuatro métodos que se llamen secuenciaNaturalIntA(), secuenciaNaturalIntB(), secuenciaNaturalIntC() y secuenciaNaturalIntD().
   - Cada método recibe respectivamente un valor que representa el lado de una matriz cuadrada de tamaño N; deben rellenar el corespondiente array según los patrones del gráfico adjunto. Devuelven respectivamente la matriz generada.
   - La secuencia natural es 1, 2, 3 ... N.
