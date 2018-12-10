@@ -12,7 +12,7 @@ Practica 4 - Arrays
 - [ValorMasRepetido](https://github.com/DAM1Ignacio/Practica4#9-valormasrepetido)
 - [BusquedaSecuenciasVector](https://github.com/DAM1Ignacio/Practica4#10-busquedasecuenciasvectora)
 - [DibujaLetra](https://github.com/DAM1Ignacio/Practica4#11-dibujaletra)
-- [SecuenciasNumerales](https://github.com/DAM1Ignacio/Practica4#12-secuenciasnaturales)
+- [SecuenciasNaturales](https://github.com/DAM1Ignacio/Practica4#12-secuenciasnaturales)
 - [SubmatrizMaxima](https://github.com/DAM1Ignacio/Practica4#13-submatrizmaxima)
 
 
