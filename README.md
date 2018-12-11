@@ -15,7 +15,7 @@ Practica 4 - Arrays
 - [SecuenciasNaturales](https://github.com/DAM1Ignacio/Practica4#12-secuenciasnaturales)
 - [SubmatrizMaxima](https://github.com/DAM1Ignacio/Practica4#13-submatrizmaxima)
 - [IndiceAlfabeto](https://github.com/DAM1Ignacio/Practica4#14-IndiceAlfabeto)
-
+- [BuscarNumeroEnArray](https://github.com/DAM1Ignacio/Practica4#15-BuscarNumeroEnArray)
 
 # Ejercicios
 ### 3. ValorMasRepetido
@@ -104,4 +104,9 @@ Practica 4 - Arrays
   - Escribe un método que se llame indiceAfabetico() que recibe una palabra como texto. Devuelve un array (vector) de números conteniendo la posición que le corresponde a cada letra de la palabra recibida según el alfabeto español.
   - Prueba el método pedido desde main().
   - Se puede resolver con un vector de char que contenga todos las letras ordenadas del alfabeto español y dos bucles for anidados (uno para las letras de la palabra y otro para el array del alfabeto). Tambien se pueden utilizar las propiedades de los sistemas de codificación ASCII o unicode.
+  - Deben seguirse los principios y estilo del código limpio.
+### 15. BuscarNumeroEnArray
+  - Escribe un método que se llame buscarNumero() que recibe un vector ordenado de enteros y un valor. Devuelve el índice de la posición de ese valor dentro del array recibido utilizando una búsqueda binaria.
+  - Prueba el método pedido desde main().
+  - Consulta el anexo de los apuntes: Anexo 7. Algoritmos de búsqueda y ordenación
   - Deben seguirse los principios y estilo del código limpio.
