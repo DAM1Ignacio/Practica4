@@ -14,7 +14,7 @@ Practica 4 - Arrays
 - [DibujaLetra](https://github.com/DAM1Ignacio/Practica4#11-dibujaletra)
 - [SecuenciasNaturales](https://github.com/DAM1Ignacio/Practica4#12-secuenciasnaturales)
 - [SubmatrizMaxima](https://github.com/DAM1Ignacio/Practica4#13-submatrizmaxima)
-
+- [IndiceAlfabeto](https://github.com/DAM1Ignacio/Practica4#14-IndiceAlfabeto)
 
 
 # Ejercicios
@@ -97,7 +97,11 @@ Practica 4 - Arrays
   - A continuación, se pasa a la derecha N-1 veces, luego sube N-1 veces, luego a la izquierda N-2 veces, luego hacia abajo N-2 veces, etc. Cada vez que se mueve un paso se produce un número de la secuencia natural 1, 2, 3, ..., NxN.
   - Deben seguirse los principios y estilo del código limpio.
 ### 13. SubmatrizMaxima
-	
   - Escribe un método que se llame maxima3() que recibe una matriz rectangular de tamaño (n,m) con datos. Devuelve una una submatriz de tamaño (3,3), cuyos valores sumen el valor máximo dentro de la matriz recibida.
   - Modifica el ejemplo de submatriz máxima del capitulo 7. Arrays de los apuntes.
+  - Deben seguirse los principios y estilo del código limpio.
+### 14. IndiceAlfabeto
+  - Escribe un método que se llame indiceAfabetico() que recibe una palabra como texto. Devuelve un array (vector) de números conteniendo la posición que le corresponde a cada letra de la palabra recibida según el alfabeto español.
+  - Prueba el método pedido desde main().
+  - Se puede resolver con un vector de char que contenga todos las letras ordenadas del alfabeto español y dos bucles for anidados (uno para las letras de la palabra y otro para el array del alfabeto). Tambien se pueden utilizar las propiedades de los sistemas de codificación ASCII o unicode.
   - Deben seguirse los principios y estilo del código limpio.
